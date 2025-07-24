@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>JaYa House</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #ffb6b9;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #fff;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .timeline-item {
+      margin-bottom: 30px;
+      border-left: 4px solid #ffb6b9;
+      padding-left: 10px;
+    }
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 15px;
+      margin: 10px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .button {
+      background: #ffb6b9;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 1em;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    .hidden-poem {
+      display: none;
+      margin-top: 20px;
+      background: #fff0f5;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-style: italic;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JaYa House</h1>
+  </header>
+
+  <section>
+    <div class="timeline-item">
+      <h3>📍 1er septembre — Notre première rencontre</h3>
+      <p>À l'ESSCA, deux âmes se sont croisées. C'était le début d'une grande histoire.</p>
+      <img src="IMG_6734.jpeg" alt="Premiers moments ensemble">
+    </div>
+    <div class="timeline-item">
+      <h3>🕓 Les veillées jusqu'à 4h</h3>
+      <p>Je descendais en bas de chez toi tous les soirs, incapable de m’éloigner. Même le froid n’y pouvait rien.</p>
+      <img src="IMG_6732.jpeg" alt="Main dans la main dans la voiture">
+    </div>
+    <div class="timeline-item">
+      <h3>💘 24 février — On s’est mis ensemble</h3>
+      <p>Ce jour-là, j’ai su que c’était toi.</p>
+      <img src="IMG_6729.jpeg" alt="Nous deux blottis">
+    </div>
+    <div class="timeline-item">
+      <h3>🗣️ Premier "je t’aime"</h3>
+      <p>En rentrant de l'anniversaire de David… Mon cœur a parlé avant moi.</p>
+    </div>
+    <div class="timeline-item">
+      <h3>🌴 Nos vacances dans les Pouilles</h3>
+      <p>Un mariage… et moi qui me voyais t’y emmener pour de bon.</p>
+      <img src="IMG_6727.jpeg" alt="Vacances dans le sud">
+    </div>
+
+    <button class="button" onclick="document.getElementById('poeme').style.display='block'">
+      Clique ici pour ouvrir ton poème 💌
+    </button>
+
+    <div class="hidden-poem" id="poeme">
+      <h3>💍 Une promesse en vers</h3>
+      <p>
+        Un an, cinq mois, chaque seconde gravée<br>
+        Entre appels, silences, et rires partagés<br><br>
+        De tes yeux aux étoiles, il n’y a qu’un pas<br>
+        Et moi je le fais, en rêvant de toi<br><br>
+        Dans les Pouilles, j’ai vu clair tout à coup<br>
+        C’était pas un mariage… c’était nous<br><br>
+        Alors voilà, devant ce monde fictif<br>
+        Je pose un genou, et brise le passif<br><br>
+        Clique sur l’image ci-dessous…<br>
+        Mon cœur y dépose un anneau. 💍
+      </p>
+      <img src="IMG_0001.jpeg" alt="Demande en mariage sur le gammon au coucher du soleil">
+      <p style="text-align: center; margin-top: 10px;"><strong>Cette fois j’ai pas oublié notre anniversaire.</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    Avec tout mon amour ❤️ — Yann pour Jade
+  </footer>
+</body>
+</html>
